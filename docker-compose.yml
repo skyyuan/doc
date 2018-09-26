@@ -12,9 +12,9 @@ services:
   - MINDOC_RUN_MODE=prod
   - MINDOC_DB_ADAPTER=mysql
   - MINDOC_DB_DATABASE=mindoc
-  - MINDOC_DB_HOST=127.0.0.1
+  - MINDOC_DB_HOST=mysql
   - MINDOC_DB_USER=root
-  - MINDOC_DB_PASS=
+  - MINDOC_DB_PASS=helloload
   - MINDOC_CACHE=true
   - MINDOC_CACHE_PROVIDER=file
   - MINDOC_ENABLE_EXPORT=false
