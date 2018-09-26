@@ -24,6 +24,11 @@ services:
       - MINDOC_CDN_IMG_URL=
       - MINDOC_CDN_CSS_URL=
       - MINDOC_CDN_JS_URL=
+    networks:
+      - app_net
     dns:
       - 223.5.5.5
       - 223.6.6.6
+networks:
+  app_net:
+    external: true

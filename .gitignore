@@ -3,3 +3,4 @@
 bin/
 pkg/
 src/github.com/
+src/mindoc/runtime/logs/log.log
