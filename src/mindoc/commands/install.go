@@ -105,7 +105,7 @@ func initialization() {
 
 		member.Account = "admin"
 		member.Avatar = conf.URLForWithCdnImage("/static/images/headimgurl.jpg")
-		member.Password = "itering123"
+		member.Password = "111111"
 		member.AuthMethod = "local"
 		member.Role = 0
 		member.Email = "skyyuan@itering.com"

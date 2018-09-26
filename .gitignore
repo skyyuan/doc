@@ -4,3 +4,7 @@ bin/
 pkg/
 src/github.com/
 src/mindoc/runtime/logs/log.log
+src/mindoc/runtime/
+src/mindoc/mindoc
+src/mindoc/uploads/
+src/mindoc/runtime/session/
