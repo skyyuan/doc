@@ -1,0 +1,27 @@
+services:
+  itering-sso:
+  container_name: 'mindoc'
+  build: .
+  privileged: false
+  restart: always
+  ports:
+  - 8181:8181
+  volumes:
+  - /var/www/mindoc/uploads:/mindoc/uploads
+  environment:
+  - MINDOC_RUN_MODE=prod
+  - MINDOC_DB_ADAPTER=mysql
+  - MINDOC_DB_DATABASE=mindoc
+  - MINDOC_DB_HOST=127.0.0.1
+  - MINDOC_DB_USER=root
+  - MINDOC_DB_PASS=
+  - MINDOC_CACHE=true
+  - MINDOC_CACHE_PROVIDER=file
+  - MINDOC_ENABLE_EXPORT=false
+  - MINDOC_BASE_URL=
+  - MINDOC_CDN_IMG_URL=
+  - MINDOC_CDN_CSS_URL=
+  - MINDOC_CDN_JS_URL=
+  dns:
+  - 223.5.5.5
+  - 223.6.6.6

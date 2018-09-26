@@ -1,0 +1,237 @@
+{
+	"ImportPath": "mindoc",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/PuerkitoBio/goquery",
+			"Comment": "v1.4.1",
+			"Rev": "dc2ec5c7ca4d9aae063b79b9f581dd3ea6afd2b2"
+		},
+		{
+			"ImportPath": "github.com/andybalholm/cascadia",
+			"Comment": "v1.0.0",
+			"Rev": "901648c87902174f774fac311d7f176f8647bdaa"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/cache",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/cache/memcache",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/cache/redis",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/config",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/context",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/context/param",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/grace",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/logs",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/orm",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/session",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/session/memcache",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/session/mysql",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/session/redis",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/toolbox",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/utils",
+			"Comment": "v1.10.1",
+			"Rev": "053a075344c118a5cc41981b29ef612bb53d20ca"
+		},
+		{
+			"ImportPath": "github.com/boombuler/barcode",
+			"Comment": "v1.0.0-8-g34fff27",
+			"Rev": "34fff276c74eba9c3506f0c6f4064dbaa67d8da3"
+		},
+		{
+			"ImportPath": "github.com/boombuler/barcode/qr",
+			"Comment": "v1.0.0-8-g34fff27",
+			"Rev": "34fff276c74eba9c3506f0c6f4064dbaa67d8da3"
+		},
+		{
+			"ImportPath": "github.com/boombuler/barcode/utils",
+			"Comment": "v1.0.0-8-g34fff27",
+			"Rev": "34fff276c74eba9c3506f0c6f4064dbaa67d8da3"
+		},
+		{
+			"ImportPath": "github.com/bradfitz/gomemcache/memcache",
+			"Comment": "release.r60-50-gbc664df",
+			"Rev": "bc664df9673713a0ccf26e3b55a673ec7301088b"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.4.0-5-g99ff426",
+			"Rev": "99ff426eb706cffe92ff3d058e168b278cabf7c7"
+		},
+		{
+			"ImportPath": "github.com/golang/freetype",
+			"Comment": "release-137-ge2365df",
+			"Rev": "e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4"
+		},
+		{
+			"ImportPath": "github.com/golang/freetype/raster",
+			"Comment": "release-137-ge2365df",
+			"Rev": "e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4"
+		},
+		{
+			"ImportPath": "github.com/golang/freetype/truetype",
+			"Comment": "release-137-ge2365df",
+			"Rev": "e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4"
+		},
+		{
+			"ImportPath": "github.com/gomodule/redigo/internal",
+			"Comment": "v2.0.0-5-g2cd21d9",
+			"Rev": "2cd21d9966bf7ff9ae091419744f0b3fb0fecace"
+		},
+		{
+			"ImportPath": "github.com/gomodule/redigo/redis",
+			"Comment": "v2.0.0-5-g2cd21d9",
+			"Rev": "2cd21d9966bf7ff9ae091419744f0b3fb0fecace"
+		},
+		{
+			"ImportPath": "github.com/howeyc/fsnotify",
+			"Comment": "v0.9.0-16-gf0c08ee",
+			"Rev": "f0c08ee9c60704c1879025f2ae0ff3e000082c13"
+		},
+		{
+			"ImportPath": "github.com/kardianos/service",
+			"Rev": "b1866cf76903d81b491fb668ba14f4b1322b2ca7"
+		},
+		{
+			"ImportPath": "github.com/lifei6671/gocaptcha",
+			"Comment": "v0.1-3-g6efc5db",
+			"Rev": "6efc5dbd100ce8385b6a0683c18cb3d27bc1a068"
+		},
+		{
+			"ImportPath": "github.com/nfnt/resize",
+			"Rev": "83c6a9932646f83e3267f353373d47347b6036b2"
+		},
+		{
+			"ImportPath": "github.com/qiniu/x/errors.v7",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		},
+		{
+			"ImportPath": "github.com/shurcooL/sanitized_anchor_name",
+			"Rev": "86672fcb3f950f35f2e675df2240550f2a50762f"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/acme",
+			"Rev": "0e37d006457bf46f9e6692014ba72ef82c33022c"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/acme/autocert",
+			"Rev": "0e37d006457bf46f9e6692014ba72ef82c33022c"
+		},
+		{
+			"ImportPath": "golang.org/x/image/font",
+			"Rev": "e1a1ede6891c997b81b830dbc6f4d2850b9392a4"
+		},
+		{
+			"ImportPath": "golang.org/x/image/math/fixed",
+			"Rev": "e1a1ede6891c997b81b830dbc6f4d2850b9392a4"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "f04abc6bdfa7a0171a8a0c9fd2ada9391044d056"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "f04abc6bdfa7a0171a8a0c9fd2ada9391044d056"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "90868a75fefd03942536221d7c0e2f84ec62a668"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/registry",
+			"Rev": "90868a75fefd03942536221d7c0e2f84ec62a668"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc",
+			"Rev": "90868a75fefd03942536221d7c0e2f84ec62a668"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc/eventlog",
+			"Rev": "90868a75fefd03942536221d7c0e2f84ec62a668"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc/mgr",
+			"Rev": "90868a75fefd03942536221d7c0e2f84ec62a668"
+		},
+		{
+			"ImportPath": "gopkg.in/asn1-ber.v1",
+			"Comment": "v1.2",
+			"Rev": "379148ca0225df7a432012b8df0355c2a2063ac0"
+		},
+		{
+			"ImportPath": "gopkg.in/ldap.v2",
+			"Comment": "v2.5.1",
+			"Rev": "bb7a9ca6e4fbc2129e3db588a34bc970ffe811a9"
+		},
+		{
+			"ImportPath": "gopkg.in/russross/blackfriday.v2",
+			"Comment": "v2.0.1",
+			"Rev": "d3b5b032dc8e8927d31a5071b56e14c89f045135"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Comment": "v2.2.1",
+			"Rev": "5420a8b6744d3b0345ab293f6fcba19c978f1183"
+		}
+	]
+}
